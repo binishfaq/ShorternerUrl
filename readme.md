@@ -436,8 +436,8 @@ Contributions are welcome! Please follow these steps:
 ## 👨‍💻 Connect
 
 - **GitHub:** [binishfaq](https://github.com/binishfaq)
-- **LinkedIn:** [yourprofile](https://www.linkedin.com/in/zainbinishfaq)
-- **Website:** [yourwebsite.com](https://zainbinishfaq.vercel.app/)
+- **LinkedIn:** [Zain Bin Ishfaq](https://www.linkedin.com/in/zainbinishfaq)
+- **Website:** [Portfolio](https://zainbinishfaq.vercel.app/)
 
 ---
 
