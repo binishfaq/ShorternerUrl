@@ -1,0 +1,108 @@
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s;
+  border: 1px solid #f1f5f9;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.shortUrlSection {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.shortCode {
+  font-size: 16px;
+  font-weight: 700;
+  color: #667eea;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.linkIcon {
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+.copyBtn {
+  padding: 4px 12px;
+  background: #f3f4f6;
+  border: none;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #4b5563;
+}
+
+.copyBtn:hover {
+  background: #e5e7eb;
+}
+
+.copyBtn.copied {
+  background: #10b981;
+  color: white;
+}
+
+.deleteBtn {
+  background: transparent;
+  border: none;
+  color: #9ca3af;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.deleteBtn:hover {
+  color: #ef4444;
+  background: #fef2f2;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.originalUrl {
+  color: #6b7280;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+.stats {
+  display: flex;
+  gap: 16px;
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+.statItem {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.statIcon {
+  font-size: 14px;
+}

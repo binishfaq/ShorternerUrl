@@ -7,11 +7,19 @@ const shortenerurl = async (req,res)=>{
 try {
     const {originalUrl} = req.body;
 
+
     if(!originalUrl){
         res.status(400).json({
             error: 'please provide url'
         })
         
+    }
+   
+    const newurl = await Url.findOne({originalUrl});
+    if(newurl){
+         res.status(400).json({
+            error: 'url already exist'
+        })
     }
     const shortCode = nanoid(6);
         const newUrl = new Url({
